@@ -28,7 +28,7 @@ input{
     border-color: lightgray;
     border-style: solid;
 }
-.add{
+#add{
     color: white;
     display: flex;
     align-items: center;
@@ -40,7 +40,7 @@ input{
     background-color: #833AE0;
     padding-left: 0;
 }
-.add:hover{
+#add:hover{
     border-style: solid;
     border-color: lightgray;
     border-width: 2px;
@@ -56,4 +56,50 @@ button>div{
     padding: 2px;
     height: 90%;
     border-radius: 50px;
+}
+.sorting{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+svg{
+    fill: gray;
+    width: 22px;
+    height: 22px;
+}
+.sort.up{
+    display: none;
+}
+svg:hover{
+    width: 21.5px;
+    height: 21.5px;
+    fill: lightgray;
+}
+.list{
+    list-style: none;
+    display: none;
+    width: 70%;
+    border-radius: 10px;
+    padding: 5px;
+    border-color: lightgray;
+    border-style: solid;
+    padding: 20px;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    align-items: center;
+}
+p{width: 80%;}
+.remove-line{
+    width: 15px;
+    height: 15px;
+    color: gray;
+}
+.remove-line:hover{
+    width: 14px;
+    height: 14px;
+    color: lightgray;
 }
