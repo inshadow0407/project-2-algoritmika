@@ -29,6 +29,7 @@ input{
     border-style: solid;
 }
 #add{
+    cursor: pointer;
     color: white;
     display: flex;
     align-items: center;
@@ -68,6 +69,9 @@ svg{
     width: 22px;
     height: 22px;
 }
+.sort{
+    cursor: pointer;
+}
 .sort.up{
     display: none;
 }
@@ -94,12 +98,13 @@ li{
 }
 p{width: 80%;}
 .remove-line{
-    width: 15px;
-    height: 15px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
     color: gray;
 }
 .remove-line:hover{
-    width: 14px;
-    height: 14px;
+    width: 19px;
+    height: 19px;
     color: lightgray;
 }
